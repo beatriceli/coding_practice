@@ -67,6 +67,8 @@ def stockPairs(stocksProfit, target):
         tracked.add(x)
     
     return len(unique_pairs)
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
